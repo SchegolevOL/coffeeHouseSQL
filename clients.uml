@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.clients</OriginalElement>
+  <nodes>
+    <node x="501.0625" y="165.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.persons</node>
+    <node x="395.57661290322574" y="412.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.order_composition</node>
+    <node x="118.0" y="423.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks_lang</node>
+    <node x="323.75" y="209.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks</node>
+    <node x="683.5625" y="220.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.orders</node>
+    <node x="662.5625" y="-115.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.clients</node>
+    <node x="672.4233870967741" y="422.5">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.work_schedule</node>
+    <node x="-24.25" y="209.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.languages</node>
+    <node x="140.75" y="209.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types _of_desserts</node>
+    <node x="-98.0" y="423.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_desserts_lang</node>
+    <node x="517.5625" y="-38.0">c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.posts</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.order_composition" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types _of_desserts" relationship="REFERENCES">
+      <point x="-62.625" y="-60.0" />
+      <point x="416.45161290322574" y="382.0" />
+      <point x="263.0" y="382.0" />
+      <point x="40.75" y="49.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_desserts_lang" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types _of_desserts" relationship="REFERENCES">
+      <point x="-48.75" y="-49.0" />
+      <point x="-49.25" y="392.0" />
+      <point x="181.5" y="392.0" />
+      <point x="-40.75" y="49.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.work_schedule" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.persons" relationship="REFERENCES">
+      <point x="0.0" y="-49.5" />
+      <point x="741.4233870967741" y="392.0" />
+      <point x="580.0625" y="392.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.order_composition" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks" relationship="REFERENCES">
+      <point x="-20.875" y="-60.0" />
+      <point x="458.20161290322574" y="392.0" />
+      <point x="431.75" y="392.0" />
+      <point x="36.0" y="49.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_desserts_lang" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.languages" relationship="REFERENCES">
+      <point x="48.75" y="-49.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.order_composition" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.persons" relationship="REFERENCES">
+      <point x="20.875" y="-60.0" />
+      <point x="499.95161290322574" y="392.0" />
+      <point x="580.0625" y="392.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.persons" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.posts" relationship="REFERENCES">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks_lang" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks" relationship="REFERENCES">
+      <point x="45.0" y="-49.0" />
+      <point x="253.0" y="392.0" />
+      <point x="359.75" y="392.0" />
+      <point x="-36.0" y="49.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.orders" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.clients" relationship="REFERENCES">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.order_composition" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.orders" relationship="REFERENCES">
+      <point x="62.625" y="-60.0" />
+      <point x="541.7016129032257" y="382.0" />
+      <point x="743.0625" y="382.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.types_of_drinks_lang" target="c047f25e-972f-4fe8-9278-71a9fdbea955.TABLE:coffee_house.public.languages" relationship="REFERENCES">
+      <point x="-45.0" y="-49.0" />
+      <point x="163.0" y="382.0" />
+      <point x="48.25" y="382.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1274362818590704" showDependencies="false" x="373.00000000000006" y="159.93484042553195" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
